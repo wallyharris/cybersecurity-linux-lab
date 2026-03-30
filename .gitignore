@@ -1,0 +1,17 @@
+# Ignore temporary files and editor backups
+*~
+*.swp
+*.bak
+
+# Ignore log files and caches
+*.log
+*.cache
+*.tmp
+
+# Ignore backups of scripts
+*.zip
+*.tar.gz
+
+# Ignore system files
+.DS_Store
+Thumbs.db
