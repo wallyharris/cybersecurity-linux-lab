@@ -10,14 +10,16 @@ Document hands-on learning in Linux, building a strong foundation for cybersecur
 
 ### Module 01 - Filesystem and Commands
 
-- Linux introduction and importance in cybersecurity
-- Ubuntu installation on virtual machine
-- Terminal basics and navigation
-- Useful terminal shortcuts
-- Directory navigation and management
-- Linux Filesystem Hierarchy Standard (FHS)
-- File manipulation commands
-- File permissions and chmod usage
+- [Introduction](modules/module-01-filesystem-commands/introduction.md)  
+- [Ubuntu Installation](modules/module-01-filesystem-commands/installation.md)  
+- [Terminal Basics](modules/module-01-filesystem-commands/terminal-basics.md)  
+- [Terminal Shortcuts](modules/module-01-filesystem-commands/shortcuts.md)  
+- [Directory Navigation](modules/module-01-filesystem-commands/navigation.md)  
+- [Filesystem Hierarchy (FHS)](modules/module-01-filesystem-commands/fhs.md)  
+- [File Manipulation](modules/module-01-filesystem-commands/file-manipulation.md)  
+- [File Permissions](modules/module-01-filesystem-commands/permissions.md)
+
+---
 
 ## 🛠️ Technologies
 
