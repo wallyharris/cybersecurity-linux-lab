@@ -39,9 +39,9 @@ Train real operational Linux skills used in cybersecurity environments:
 
 ## 📁 LAB STRUCTURE
 
-- `modules/` → structured Linux learning path  
-- `scripts/` → automation & system tools  
-- `assets/` → terminal screenshots and evidence  
+- [modules/](modules/) → structured Linux learning path  
+- [scripts/](scripts/) → automation & system tools  
+- [assets/](assets/) → terminal screenshots and evidence 
 
 ---
 
@@ -69,13 +69,13 @@ Linux navigation, file structure, and command-line fundamentals.
 
 ## 🛠️ PRACTICAL TOOLS
 
-### 🗂️ Backup Automation
+### 🗂️ [Backup Automation](scripts/backup-script/)
 Timestamped backup system for directories.
 
-### 🗜️ Compression Utility
+### 🗜️ [Compression Utility](scripts/compress-script/)
 File compression and archive generation.
 
-### 📊 System Monitor
+### 📊 [System Monitor](scripts/monitor-script/)
 Real-time CPU, memory, and disk usage analysis.
 
 ---
@@ -93,7 +93,7 @@ Real-time CPU, memory, and disk usage analysis.
 
 ## 📸 EVIDENCE BASE
 
-All commands and outputs are documented using real terminal screenshots stored in the `assets/` directory.
+All commands and outputs are documented using real terminal screenshots stored in the [assets](assets/) directory.
 
 ---
 
