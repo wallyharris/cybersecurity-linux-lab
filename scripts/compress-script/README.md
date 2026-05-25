@@ -56,4 +56,4 @@ Make sure the `data` directory exists and the `zip` utility is installed on your
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+[MIT License](/LICENSE/)
