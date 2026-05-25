@@ -62,4 +62,4 @@ This script is useful for quick diagnostics and system checks without installing
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+[MIT License](/LICENSE/)
