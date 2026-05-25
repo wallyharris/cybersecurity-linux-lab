@@ -56,4 +56,4 @@ These scripts are designed to:
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+[MIT License](/LICENSE/)
