@@ -56,4 +56,4 @@ Make sure the `data` folder exists in your home directory before running the scr
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+[MIT License](/LICENSE/)
