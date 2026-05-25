@@ -20,11 +20,6 @@ Build a strong foundation in Linux by mastering essential commands and understan
 
 Linux is a Unix-based operating system widely used in servers, cybersecurity, and development environments. It allows full control over the system through the terminal.
 
-Understanding Linux is essential for:
-- System administration  
-- Automation  
-- Cybersecurity operations  
-
 ---
 
 ### 📁 Installation
@@ -35,10 +30,10 @@ Environment setup and initial configuration for using Linux.
 
 1. Download Ubuntu (LTS)  
 2. Install VirtualBox  
-3. Create a new virtual machine  
+3. Create a virtual machine  
 4. Attach the ISO file  
-5. Configure RAM and disk (2GB RAM, 20GB disk recommended)  
-6. Start installation and complete setup  
+5. Configure RAM and disk  
+6. Complete installation  
 
 #### Post-installation
 
@@ -49,29 +44,26 @@ Environment setup and initial configuration for using Linux.
 
 ### 📁 Terminal Basics
 
-Understanding how the terminal works and how to interact with the system.
-
 #### Commands
 
-- `whoami` → shows current user  
-- `hostname` → shows machine name  
-- `pwd` → shows current directory  
-- `clear` → clears terminal  
+- `whoami`
+- `hostname`
+- `pwd`
+- `clear`
 
 #### Example
 
     whoami
     hostname
     pwd
-    clear
+
+![terminal](../../assets/whoami.png)
 
 ---
 
 ### 📁 Navigation
 
-Commands used to move through directories and explore the filesystem.
-
-#### Commands covered
+#### Commands
 
 - `pwd`
 - `cd`
@@ -82,22 +74,14 @@ Commands used to move through directories and explore the filesystem.
     pwd
     cd /home
     ls -l
-    cd ..
-    cd ~
 
-#### Notes
-
-- `cd ..` → go back  
-- `cd ~` → home directory  
-- `ls -lh` → readable sizes  
+![ls](../../assets/ls_l.png)
 
 ---
 
 ### 📁 File Manipulation
 
-Creating, copying, moving, editing, and deleting files.
-
-#### Commands covered
+#### Commands
 
 - `touch`
 - `cp`
@@ -111,20 +95,17 @@ Creating, copying, moving, editing, and deleting files.
 #### Example
 
     touch file.txt
-    echo "hello world" > file.txt
-    cat file.txt
+    echo "hello" > file.txt
     cp file.txt copy.txt
     mv copy.txt newfile.txt
-    rm newfile.txt
-    mkdir test_folder
+
+![file](../../assets/touch_file.png)
 
 ---
 
 ### 📁 Permissions
 
-Managing file and directory permissions.
-
-#### Commands covered
+#### Commands
 
 - `chmod`
 - `ls -l`
@@ -133,61 +114,48 @@ Managing file and directory permissions.
 
     ls -l
     chmod 700 file.txt
-    chmod +x script.sh
-    chmod -r file.txt
 
-#### Notes
-
-- `r` = read  
-- `w` = write  
-- `x` = execute  
-- `700` = full access for owner  
+![permissions](../../assets/chmod_700.png)
 
 ---
 
 ### 📁 Shortcuts & Productivity
 
-Improving efficiency using terminal shortcuts.
-
 #### Shortcuts
 
-- `Ctrl + C` → stop command  
-- `Ctrl + Z` → pause process  
-- `Ctrl + L` → clear screen  
-- `Ctrl + R` → search history  
-- `!!` → repeat last command  
+- `Ctrl + C`
+- `Ctrl + Z`
+- `Ctrl + L`
+- `Ctrl + R`
+- `!!`
 
 ---
 
 ### 📁 Filesystem Hierarchy Standard (FHS)
 
-Understanding the structure and purpose of Linux directories.
-
 #### Key directories
 
 - `/` → root  
 - `/home` → user files  
-- `/etc` → configuration  
+- `/etc` → configs  
 - `/var` → logs  
-- `/tmp` → temporary files  
-- `/usr` → programs  
-- `/root` → root user  
+- `/tmp` → temporary  
 
 ---
 
 ## 📸 Visual Examples
 
-Screenshots for all commands are available in the [assets](../../assets/) directory.
+Full gallery available in the [assets](../../assets/) directory.
 
 ---
 
 ## 🧠 Key Learnings
 
-- Linux filesystem structure (FHS)  
+- Linux filesystem structure  
 - Command-line navigation  
-- File and directory management  
+- File manipulation  
 - Permission handling  
-- Terminal productivity techniques  
+- Terminal productivity  
 
 ---
 
@@ -195,16 +163,10 @@ Screenshots for all commands are available in the [assets](../../assets/) direct
 
 After completing this module, you are able to:
 
-- Navigate and manage files in Linux  
+- Navigate and manage files  
 - Understand system structure  
 - Execute essential commands  
 - Work efficiently in the terminal  
-
----
-
-## 📌 Notes
-
-All content in this module was based on hands-on practice and real command execution.
 
 ---
 
