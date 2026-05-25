@@ -75,4 +75,4 @@ File names are structured to match the command demonstrated for easy reference.
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+[MIT License](/LICENSE/)
