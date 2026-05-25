@@ -117,4 +117,4 @@ All content in this module was based on hands-on practice and real command execu
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+[MIT License](/LICENSE/)
