@@ -1,6 +1,6 @@
 # 🐉 Cybersecurity Linux Lab
 
-![Linux](https://img.shields.io/badge/Linux-Kali_Linux-purple)
+![OS](https://img.shields.io/badge/OS-Kali_Linux-purple)
 ![Focus](https://img.shields.io/badge/Focus-Cybersecurity-darkred)
 ![Status](https://img.shields.io/badge/Status-Active-green)
 
@@ -117,4 +117,4 @@ No real-world exploitation or unauthorized access is performed.
 
 ## 📜 LICENSE
 
-MIT License
+[MIT License](/LICENSE/)
